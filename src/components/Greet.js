@@ -5,9 +5,10 @@ import React from 'react'
 // }
 
 const Greet = (props) => {
+    const {name, career} = props
     return (
         <div>
-            <h1>Hello {props.name} Arrow Functions</h1>
+            <h1>Hello {name} is {career}</h1>
             {props.children}
         </div>
     );
