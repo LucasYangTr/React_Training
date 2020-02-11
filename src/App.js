@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import Form from './components/Form'
 import LifecycleA from './components/LifecycleA'
+import FragmentDemo from './components/FragmentDemo'
+import Table from './components/Table';
 
 class App extends Component{
   render(){
@@ -9,7 +11,9 @@ class App extends Component{
       <div className="App">
         {/* <Form /> */}
         -----------------------
-        <LifecycleA />
+        <Table />
+        {/* <FragmentDemo /> */}
+        {/* <LifecycleA /> */}
       </div>
     );
   }
